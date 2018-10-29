@@ -29,6 +29,10 @@ const HomeworkSchema = new Schema({
     student: {
         type: String,
         required: [true, 'Student field is required']
+    },
+    
+    details: {
+        type: String
     }
 });
 
